@@ -15,10 +15,10 @@ public class Ejercicio3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        jugador pablo = new jugador();
+        jugador pablo = new jugador("messi",140,"ARGENTINO",29);
         System.out.println(pablo.getNombre());
         
-         jugador pablo= setJugador("messi",140,"ARGENTINO",29);
+         
         System.out.println("nombre "+pablo.getNombre()+"\n"+"nacionalidad "+pablo.getNacionalidad()+"\n"+"edad "+pablo.getEdad()+"\n"+"puntaje "+pablo.getPuntaje());
         
         
