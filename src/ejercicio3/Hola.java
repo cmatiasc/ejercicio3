@@ -7,8 +7,22 @@ package ejercicio3;
 
 /**
  *
- * @author Admin
+ * @author Lucas
  */
 public class Hola {
+    
+    private String hola;
+
+    public Hola(String hola) {
+        this.hola = hola;
+    }
+
+    public String getHola() {
+        return hola;
+    }
+
+    public void setHola(String hola) {
+        this.hola = hola;
+    }
     
 }
